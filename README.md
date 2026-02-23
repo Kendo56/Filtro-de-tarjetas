@@ -6,4 +6,4 @@ Linkedin: https://www.linkedin.com/in/kendals-arias-mina-288b37341/
 
 github: https://github.com/Kendo56
 
-Enlace de la pagina: 
+Enlace de la pagina: https://filter-tarjets.netlify.app/
