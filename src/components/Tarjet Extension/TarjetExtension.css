@@ -1,0 +1,158 @@
+.container_tarjet {
+    position: relative;
+    background: var(--Neutral-800);
+    border-radius: var(--border-16);
+    border: 1px solid var(--Neutral-600);
+    width: 100%;
+    height: 100%;
+}
+
+.remove_container_tarjet {
+    display: none;
+}
+
+.container_tarjet_light {
+    background: var(--Neutral-0);
+    border: 1px solid var(--Neutral-0);
+}
+
+.content_tarjet {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 19px;
+}
+
+.info_tarjet {
+    display: flex;
+    height: 50%;
+    gap: 1rem;
+}
+
+.image_tarjet img {
+    width: 85px;
+}
+
+.text_tarjet {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title_tarjet {
+    color: var(--Neutral-0);
+}
+
+.title_tarjet_light {
+    color: var(--Neutral-800);
+}
+
+.description_tarjet {
+    color: var(--Neutral-300);
+    font-size: 0.92rem;
+}
+
+.description_tarjet_light {
+    color: var(--Neutral-600);
+}
+
+.state_tarjet {
+    display: flex;
+    align-items: end;
+    height: 50%;
+    gap: 10rem;
+}
+
+.content_button_state {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.container_button_remove {
+    width: 50%;
+}
+
+.container_button_state {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+.button_remove {
+    cursor: pointer;
+    border: 1px solid var(--Neutral-600);
+    color: var(--Neutral-0);
+    background: transparent;
+    border-radius: var(--border-25);
+    font-weight: 600;
+    padding: 9px 15px;
+}
+
+.button_remove:hover {
+    background: var(--Red-400);
+    color: var(--Neutral-800);
+}
+
+.button_remove_light {
+    color: var(--Neutral-800);
+    border: 1px solid var(--Neutral-300);
+}
+
+/* Hover del boton remove en tema claro */
+.button_remove:hover.button_remove_light {
+    background: var(--Red-700);
+    color: var(--Neutral-0);
+    border: none;
+}
+
+.button_stateTarjet {
+    cursor: pointer;
+    background: var(--Neutral-600);
+    border-radius: var(--border-25);
+    border: none;
+    width: 43px;
+    height: 23px;
+}
+
+/* Boton state en tema oscuro */
+.button_stateTarjet_active {
+    background: var(--Red-400);
+}
+
+/* Boton state en tema claro */
+.button_stateTarjet_active.button_stateTarjet_light {
+    background: var(--Red-700);
+}
+
+.button_stateTarjet_light {
+    background: var(--Neutral-300);
+}
+
+
+.circle {
+    width: 19px;
+    height: 19px;
+    background: var(--Neutral-0);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.circle_active {
+    margin-left: 53%;
+}
+
+.holo {
+    display: none;
+}
+
+/* responsive desktop */
+@media(min-width: 1600px) {
+    .image_tarjet img {
+        width: 100px;
+    }
+
+    .description_tarjet {
+        font-size: 1.38rem;
+    }
+}

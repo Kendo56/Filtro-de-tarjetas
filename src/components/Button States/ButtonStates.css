@@ -1,0 +1,37 @@
+.container_buttonStates {
+    background: var(--Neutral-700);
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: var(--border-25);
+    border: none;
+    color: var(--Neutral-0);
+    font-weight: 600;
+}
+
+.container_buttonStates:hover {
+    background: var(--Neutral-600);
+}
+
+.container_buttonStates_active {
+    background: var(--Red-500);
+    color: var(--Neutral-800);
+}
+
+/* Para que cuando se active el boton no haga el efecto de hover tambien */
+.container_buttonStates_active:hover {
+    background: var(--Red-500);
+}
+
+.container_buttonStates.container_buttonStates_light {
+    background: var(--Neutral-0);
+    color: var(--Neutral-800);
+}
+
+.container_buttonStates.container_buttonStates_light:hover {
+    color: var(--Neutral-600);
+}
+
+.container_buttonStates.container_buttonStates_light.container_buttonStates_active {
+    background: var(--Red-500);
+    color: var(--Neutral-0);
+}
