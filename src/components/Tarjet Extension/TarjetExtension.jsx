@@ -7,7 +7,7 @@ const TarjetExtension = ({ className, imageTarjet, titleTarjet, classNameTitle, 
             <div className='content_tarjet'>
                 <div className='info_tarjet'>
                     <div className='image_tarjet'>
-                        <img src={imageTarjet} alt='Image Tarjet' />
+                        <img src={imageTarjet} alt='icon tarjet' />
                     </div>
                     <div className='text_tarjet'>
                         <h2 className={`title_tarjet ${classNameTitle || ''}`} >

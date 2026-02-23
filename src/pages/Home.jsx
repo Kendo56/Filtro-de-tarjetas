@@ -2,7 +2,7 @@ import './Home.css'
 import ButtonStates from '../components/Button States/ButtonStates'
 import TarjetExtension from '../components/Tarjet Extension/TarjetExtension'
 import { iconExtensions, iconSun, iconMoon, logoDevlens, logoStyleSpy, logoSpeedBoost, logoJsonWizard, logoTabMasterPro, logoViewportBuddy, logoMarkupNotes, logoGridGuides, logoPalettePicker, logoLinkChecker, logoDomSnapshot, logoConsolePlus } from '../components/images'
-import { use, useState } from 'react'
+import {useState} from 'react'
 
 const Home = () => {
     //Estado De tema oscuro y claro
@@ -155,7 +155,7 @@ const Home = () => {
                 <div className={`container_extensions ${ThemeLight ? 'container_extensions_light' : ''}`}>
                     <div className='content_extensions'>
                         <div className='image_extensions'>
-                            <img src={iconExtensions} alt="icon-extensions" />
+                            <img src={iconExtensions} alt="icon extensions" />
                             <h1 className={`title_extension ${ThemeLight ? 'title_extension_light' : ''}`}>Extensions</h1>
                         </div>
                         <div className='icon_theme'>
